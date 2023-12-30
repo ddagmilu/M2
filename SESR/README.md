@@ -11,21 +11,21 @@
     
     ```
     ./manet-auto.sh -t 30 -p OLSR -d 20 -f Iteration -v RESULT
-                 	Iteratations       : 30
-             		Protocol           : OLSR
-             		Density            : 20
-             		Iteration filename : Iteration
-             		Avereges filename  : RESULT
+    Iteratations       : 30
+    Protocol           : OLSR
+    Density            : 20
+    Iteration filename : Iteration
+    Avereges filename  : RESULT
     
     ./manet-auto.sh -t 10 -r 1 -p AODV -a 9.5 -d 50 -m 25 -f Iteration -v RESULT
-                 	Iterations         : 10
-             		SetRun      	     : 1 (Start with 1)
-             		Protocol    	     : AODV
-             		Trans Power 	     : 9.5
-             		Density     	     : 50
-             		Speed              : 25
-             		Iteration filename : Iteration
-             		Avereges filename  : RESULT
+    Iterations         : 10
+    SetRun             : 1 (Start with 1)
+    Protocol           : AODV
+    Trans Power        : 9.5
+    Density            : 50
+    Speed              : 25
+    Iteration filename : Iteration
+    Avereges filename  : RESULT
     ```
     
 	* See script flags : `./manet-auto.sh -h`
