@@ -15,17 +15,17 @@
     Protocol           : OLSR
     Density            : 20
     Iteration filename : Iteration
-    Avereges filename  : RESULT
+    Averages filename  : RESULT
     
     ./manet-auto.sh -t 10 -r 1 -p AODV -a 9.5 -d 50 -m 25 -f Iteration -v RESULT
     Iterations         : 10
-    SetRun             : 1 (Start with 1)
-    Protocol           : AODV
-    Trans Power        : 9.5
-    Density            : 50
-    Speed              : 25
-    Iteration filename : Iteration
-    Avereges filename  : RESULT
+    SetRun             : 1 (Start with 1, Default = 5)
+    Protocol           : AODV (Default = OLSR)
+    Trans Power        : 9.5  (Default = 7.5)
+    Density            : 50   (Default = 50)
+    Speed              : 25   (Default = 25)
+    Iteration filename : Iteration ( >> Iteration_{protocol}_{i}.csv)
+    Averages filename  : RESULT (RESULT_{protocol}.csv)
     ```
     
 	* See script flags : `./manet-auto.sh -h`
