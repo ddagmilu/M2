@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 echo """
    _____________________________________________________
@@ -22,9 +22,9 @@ echo """
     |  /                            			/.
     \_/________________________________________________/.
 """;
-BLUE='\033[0;44m'
-RED='\033[0;41m'
-CLEAR='\033[0m'
+#BLUE='\033[0;44m'
+#RED='\033[0;41m'
+#CLEAR='\033[0m'
 
 # ---------------------------  OPTIONS
 # ------------------  Defaults
@@ -86,7 +86,6 @@ do
             		Avereges filename  : RESULT
 
             """;
-            echo """ You need to set the corresponding script flag in this script to 'manet-routing-compare' flags (command = ./ns3 ... line 139) \n For example, 'CSVfileName' in 'manet-routing-compare' is '-f' here.";
             exit 0
             ;;
         :)
@@ -100,14 +99,9 @@ do
     esac
 done
 
-#if [-z"$protocol"]
-#then
-#	echo "Enter a protocol name first: OLSR, AODV, DSDV, DSR";
-#fi
-
 # ------------------  ECHOing your options
 echo "[+] Repeat            : $times";                                      # Default = 30
-echo "[+] Set Run           : ${BLUE} Start: 5, End: 35, Step: 1 ${CLEAR}"  # Default 5:35:1 (30 times)
+echo "[+] Set Run           : Start: 5, End: 35, Step: 1 "  # Default 5:35:1 (30 times)
 #echo "[+] Set Seed	    : ${BLUE} RANDOM In each iteration ${CLEAR}"    # Default
 echo "[+] Protocol          : $protocol";                                   # NO DEFAULT
 echo "[+] Transmition Power : $trans_power";                                # NO DEFAULT
@@ -145,13 +139,13 @@ do
    #setrun=$(shuf -i 1-7 -n1)
    #setseed=$(shuf -i 1-3 -n1)
 
-   echo "[~] ${RED} RngSeedManager::SetRun($setrun); ${CLEAR}";
+   echo "[~]  RngSeedManager::SetRun($setrun);";
    #echo "[~] ${RED} RngSeedManager::SetSeed($setseed); ${CLEAR}";
 
    echo "[~] Executing --> {$command}";
    eval "$command"
 
-   setrun=$((setrun + 1))
+   setrun=$((setrun + 1)) # setrun++
    mv ${filename}_${protocol}_${i}.csv Results
 done
 mv ${CSVavg}_${protocol}.csv Results
