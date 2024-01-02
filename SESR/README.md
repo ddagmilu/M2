@@ -49,3 +49,9 @@
 
  
 ---
+
+### Plotter.py
+* Try to set `showfliers` (line 62,63) to `True` or `False` and see what works
+![Figure_1](https://github.com/ddagmilu/M2/assets/29633070/f14172b6-d6da-4368-a96e-d08f5ced0363)
+
+
