@@ -76,7 +76,7 @@ Une machine virtuelle, également appelée VM, représente un environnement virt
 
 1. Duplication de VM Windows 7.
 
-![[Pasted image 20231127214012.png | 700]]
+![[/Images/Pasted image 20231127214012.png | 700]]
 
 2. Partage de fichiers entre la VM et l'hôte.
 	* Après l'installation de Virtual Box guest tools 
