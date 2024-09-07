@@ -1,0 +1,204 @@
+/* Global Styles */
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+
+
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2rem; /* Adjusted font size */
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar-dark {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .nav-link:hover {
+  color: #CCCCCC;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #333333;
+  font-family: "Roboto", sans-serif;
+  border-color: #333333;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  border-color: #000000;
+}
+
+.btn-success {
+  background-color: #333333;
+  font-family: "Roboto", sans-serif;
+  border-color: #333333;
+  color: #FFFFFF;
+}
+
+.btn-success:hover {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  border-color: #000000;
+}
+
+/* Table Styles */
+.table {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  border-color: #CCCCCC;
+}
+
+.table th {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #F5F5F5;
+  font-family: "Roboto", sans-serif;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.table img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+}
+
+.card h5 {
+  color: #000000;
+}
+
+.card p {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  border-top: 1px solid #333333;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: black;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
